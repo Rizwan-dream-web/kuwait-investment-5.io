@@ -1,0 +1,915 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0px; padding:px; font-family:"open sans"; font:15px;}
+
+h1, h2, h3, h4, h5, h6, input, select, textfield, textarea, checkbox, radio, span, ul, ol, li, a, p, strong{ margin:0px; padding:0px;}
+
+a{ text-decoration:none;}
+img{ border:none;}
+a,img{ border:none;}
+
+/*****************Default Tags************************/
+header, nav, article, hgroup, section, aside, footer, figure, figcaption, audio, video{ margin:0px; padding:0px; display:block;}
+/*****************Default Tags************************/
+
+
+
+/*****************header Tags starts************************/
+.wrap{ width:1276px; margin:0 auto 0 auto;}
+
+
+.header{ width:100%; float:left; background:url(../images/header-bg.png) left top no-repeat;}
+.header header{ width:100%; float:left;}
+.header header hgroup{ width:30%; float:left; padding:15px 0 30px 0;}
+.header header aside{ width:30%; float:right; padding:35px 0 0 0;}
+.header header aside article { width:15%; float:left}
+.header header aside figure { width:50%; float:left;}
+.header header aside figure ul{ list-style:none;}
+.header header aside figure ul li{ float:left; margin:0 8px 0 0;}
+.header header aside figure ul li a{width:35px; height:40px; display:block;background:url(../images/FB.png) center top no-repeat;  }
+.header header aside figure ul li a:hover{ background:url(../images/FB-HO.png) center top no-repeat;}
+
+.header header aside figure ul li a.twi{ background:url(../images/twi.png) center top no-repeat; }
+.header header aside figure ul li a.twi:hover{ background:url(../images/twi-HO.png) center top no-repeat;}
+
+.header header aside figure ul li a.you{ background:url(../images/FB.png) center top no-repeat; }
+.header header aside figure ul li a.you:hover{ background:url(../images/FB-HO.png) center top no-repeat;}
+
+.header header aside figure ul li a.insta{background:url(../images/insta.png) center top no-repeat;}
+.header header aside figure ul li a.insta:hover{ background:url(../images/insta-HO.png) center top no-repeat;}
+
+.header header aside figcaption  { width:20%; float:right; background:url(../images/earth.png) 10% center no-repeat; line-height:38px; background-color:#344e97; padding:0 0 0 10%;}
+.header header aside figcaption a{ color:#fff;}
+
+.header header nav{ width:100%; float:left; border-bottom:#3c559a 1px solid;}
+.header header nav ul{ list-style:none; margin:0px; padding:0px;}
+.header header nav ul li{ display:inline;}
+.header header nav ul li a{ display:inline-block; color:#adadad; line-height:30px; padding:0 13px 0 13px; border-bottom:transparent 2px solid;}
+.header header nav ul li a:hover{ border-bottom:#fff 2px solid; color:#fff;}
+.header header nav ul li a.active-line{ border-bottom:#fff 2px solid; color:#fff;}
+
+.btn{ background:url(../images/BTN.png) left top no-repeat;  width:50px; height:40px; border:none; outline:none;}
+
+.header header section{ width:90%; float:left;text-transform:uppercase; padding:166px 0 185px 10%;}
+.header header section h1{ font-family:"Open Sans Semibold"; font-size:35px; color:#fff;}
+.header header section h2{ font-family:"Open Sans Light"; font-size:24px; color:#fff; padding:10px 0 30px 0; }
+.header header section a{ display:inline-block; border:#fff 2px solid; padding:10px 20px 10px 20px; color:#fff;}
+.header header section a:hover{ border:#CF6 2px solid; color:#CF6;}
+/*****************header Tags ends************************/
+
+
+/*****************body Tags starts************************/ 
+
+.kia{ width:100%; float:left;}
+.kia header{ width:94%; float:left; text-align:center; padding:80px 3% 80px 3%;}
+.kia header h1{ font-size:42px; font-family:"Open Sans Semibold"; text-transform:uppercase;}
+.kia header h2{ font-family:"Open Sans"; font-size:26px; color:#686868; padding:40px 0 20px 0; text-transform:uppercase;}
+.kia header p{font-family:"Open Sans"; font-size:18px; color:#686868; line-height:26px;}
+.kia header ul{ list-style:none; margin:0px; padding:0px;}
+.kia header li{ display:inline; text-align:center; margin:0 5px 0 0;}
+.kia header ul li a{ display:inline-block; color:#fff; background-color:#000; padding:10px 40px 10px 40px; margin:40px 0 0 0; text-transform:uppercase;}
+.kia header ul li a:hover{ background-color:#233b7b;}
+.kia header ul li a.active2{ background-color:#233b7b;}
+
+
+
+
+.map{ width:100%; float:left; background-color:#233b7b;}
+.map article{ width:94%; float:left; padding:80px 3% 67px 3%;}
+.map article figcaption{ width:45%; float:left; text-transform:uppercase; padding:0 0 66px 0;}
+.map article figcaption h1{ font-family:"Open Sans Light"; font-size:26px; color:#fff; padding:0 0 30px 0; }
+.map article figcaption h2{ font-family:"Open Sans Semibold"; font-size:42px; color:#fff; line-height:60px;}
+.map article figure{ width:55%; float:right; text-align:right; position:relative; color:#fff;}
+.map-posi{ width:15%; height:30px; position:absolute; left:47%; font-size:12px; top:50px; background:url(../images/red.png) left top no-repeat;color:#fff; cursor:pointer;}
+.map-posi2{ width:15%; height:30px; position:absolute; left:80%; top:80px; background:url(../images/red2.png) left top no-repeat;color:#fff;cursor:pointer;}
+.map-posi3{ width:15%; height:30px; position:absolute; left:60%; top:120px; background:url(../images/red3.png) left top no-repeat;color:#fff;cursor:pointer;}
+
+
+.new{ width:100%; float:left;padding:80px 0 80px 0;}
+.new article{ width:94%; float:left; padding:0 3% 0 3%; text-align:center; }
+.new article aside{ width:48%; float:left;}
+.new article aside figure img{ width:100%;}
+.new article aside figcaption{ width:100%; float:left;}
+.new article aside figcaption h1{ font-size:26px; text-transform:uppercase; font-family:"Open Sans Light"; padding:40px 0 20px 0;}
+.new article aside figcaption p{ color:#686868; font-size:18px; line-height:28px; padding:0 0 30px 0;}
+.new article aside ul{ list-style:none; margin:0px; padding:0px;}
+.new article aside ul li{ display:inline; text-align:center; margin:0 5px 0 0;}
+.new article aside ul li a{ width:40%; display:inline-block; color:#fff; background-color:#000; padding:10px 0 10px;  text-transform:uppercase;}
+.new article aside ul li a:hover{background-color:#233b7b;}
+.new article aside ul li a.active3{background-color:#233b7b;}
+.mar{ margin:0 0 0 4%;}
+
+
+
+.gallery{ width:100%; float:left; background:#ededed; padding:80px 0 80px 0;}
+.gallery header{ width:100%; float:left; text-align:center; font-size:42px; font-family:"Open Sans Semibold"; padding:0 0 40px 0;}
+.gallery figure{ width:53%; float:left;}
+.gallery figure ul{ list-style:none; margin:0px; padding:0px;}
+.gallery figure ul li{ float:left; width:50%;transition:all 2s ease;}
+.gallery figure ul li img{ width:99%; margin:-2px 0 0 0;}
+.gallery figure ul li:hover{ transform:scale(1.1,1.1); transition:all 2s ease;}
+
+
+.gallery aside{ width:47%; float:left;}
+
+.gallery article{ width:100%; float:left; text-align:center; padding:40px 0 0 0;}
+.gallery article ul{ list-style:none; margin:0px; padding:0px;}
+.gallery article li{ display:inline; text-align:center; margin:0 5px 0 0;}
+.gallery article ul li a{ display:inline-block; color:#fff; background-color:#000; padding:10px 40px 10px 40px; margin:40px 0 0 0; text-transform:uppercase;}
+.gallery article li a:hover{ background-color:#233b7b;}
+.gallery article li a.active2{ background-color:#233b7b;}
+
+
+
+
+.late{ width:100%; float:left;padding:80px 0 80px 0;}
+.late article{ width:94%; float:left; padding:0 3% 0 3%; }
+.late article header{ width:100%; float:left; text-align:center; font-weight:bold; font-size:42px; padding:0 0 80px 0;}
+.late article aside{ width:48%; float:left; border-right:#c9c8c8 1px solid;}
+.late article aside.pull-right{ float:right;}
+.late article aside  h1{ font-size:20px; text-transform:uppercase; font-family:"Open Sans Light"; padding:40px 0 20px 0;}
+.late article aside h2{ font-size:16px; color:#c9c8c8;}
+.late article aside  p{ color:#686868; font-size:18px; line-height:28px; padding:0 0 30px 0;}
+
+
+
+.late article figcaption{ width:48%; float:right; }
+.late article  figcaption h1{ font-size:20px; text-transform:uppercase; font-family:"Open Sans Light"; padding:40px 0 20px 0;}
+.late article  figcaption h2{ font-size:16px; color:#c9c8c8;}
+.late article  figcaption  p{ color:#686868; font-size:18px; line-height:28px; padding:0 0 30px 0;}
+
+
+.late article footer{ width:100%; float:left; text-align:center; padding:45px 0 0 0;}
+.late article footer a{ width:15%; display:inline-block; color:#fff; background-color:#000; padding:10px 0 10px;  text-transform:uppercase;}
+.late article footer a:hover{background-color:#233b7b;}
+
+
+.aan{ width:100%; float:left; background:url(../images/blur-bg.png) left top no-repeat; text-align:center; padding:75px 0 95px 0; }
+.aan header{ width:70%; float:left; padding:0 15% 0 15%;}
+.aan header h1{ font-family:"Open Sans Semibold"; font-size:42px; color:#fff; text-transform:uppercase;}
+.aan header p{ font-size:18px; color:#fff; padding:20px 0 26px 0;}
+.aan header a{ display:inline-block; color:#fff; background-color:#233b7b; padding:10px 40px 10px 40px; text-transform:uppercase;}
+.aan header a:hover{ background-color:#000;}
+
+
+
+.man{ width:100%; float:left; padding:80px 0 80px 0;}
+.man article{ width:100%; float: left;}
+.man figure{ width:47%; float:left; padding:0 0 0 3%; }
+.man figcaption{ width:47%; float:right; }
+.man figcaption h1{ font-family:"Open Sans Semibold"; font-size:42px;}
+.man figcaption h2{ font-family: "Open Sans Light"; font-size:24px; padding:10px 0 30px 0;}
+.man figcaption p{ font-size:18px; color:#686868; padding:30px 0 40px 0;}
+.man figcaption ul{ list-style:none; margin:0px; padding:0px;}
+.man figcaption ul li{ display:inline; text-align:center; margin:0 5px 0 0;}
+.man figcaption ul li a{ width:40%; display:inline-block; color:#fff; background-color:#000; padding:10px 0 10px;  text-transform:uppercase;}
+.man figcaption ul li a:hover{background-color:#233b7b;}
+.man figcaption ul li a.active3{background-color:#233b7b;}
+/*****************body Tags ends************************/
+
+/*****************footer Tags starts************************/
+.foot{ width:100%; float:left; background-color:#181818; padding:80px 0 80px 0;}
+.foot article{ width:94%; float:left; padding:0 3% 0 3%;}
+.foot aside{ width:30%; float:left;}
+.foot aside h1{ font-size:16px; color:#fff; text-transform:uppercase; padding:0 0 20px 0;}
+.foot aside ul { list-style:none; padding:0 30px 0 0; margin:0px; float:left;}
+.foot aside ul li {  font-size:16px;}
+.foot aside ul li a { color:#CCC; display:block; line-height:28px;}
+.foot aside ul li a:hover{ color:#F66;}
+.foot article figcaption{ width:25%; float:right; margin:0 0 0 10%;}
+.foot article figcaption h1{ font-size:16px; color:#fff; font-family:"Open Sans Semibold"; text-transform:uppercase; padding:0 0 20px 0; line-height:28px}
+.foot article figcaption h2{ font-size:15px; color:#CCC; font-family:"Open Sans Light"; line-height:28px;}
+
+
+
+
+
+.last{ width:100%; float:left; background-color:#000;}
+.last article{ width:94%; float:left; padding:0 3% 0 3%;}
+
+.last figcaption{ width:40%; float:left; color:#4b4b4b; line-height:48px; font-size:14px;}
+
+
+.last figure{ width:35%; float:right; font-size:14px; padding:5px 0 0 0;}
+.last figure ul{ list-style:none;}
+.last figure ul li{ float:right; margin:0 8px 0 0;}
+.last figure ul li a{width:35px; height:40px; display:block;background:url(../images/FB.png) center center no-repeat;  }
+.last figure ul li a:hover{ background:url(../images/FB-HO.png) center center no-repeat;}
+
+.last figure ul li a.twi{ background:url(../images/twi.png) center center no-repeat; }
+.last figure ul li a.twi:hover{ background:url(../images/twi-HO.png) center center no-repeat;}
+
+.last figure ul li a.you{ background:url(../images/FB.png) center center no-repeat; }
+.last figure ul li a.you:hover{ background:url(../images/FB-HO.png) center center no-repeat;}
+
+.last figure ul li a.insta{background:url(../images/insta.png) center center no-repeat;}
+.last figure ul li a.insta:hover{ background:url(../images/insta-HO.png) center center no-repeat;}
+
+/*****************footer Tags ends************************/
+
+
+
+
+
+
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+	
+.wrap{ width:100%; margin:0 auto 0 auto;}
+
+
+.header{ width:100%; float:left; background:url(../images/header-bg.png) left top no-repeat; }
+.header header{ width:100%; float:left; text-align:center;}
+.header header hgroup{ width:100%; float:left; padding:15px 0 0 0;}
+.header header hgroup a img{ width:94%; padding:20px 3% 0px 3%;}
+.header header aside{ width:100%; float:right; padding:0 0 0 0; text-align:center;}
+.header header aside article { width:100%; float:left; text-align:center;}
+.header header aside figure { width:100%; float:left; margin:30px 0 0 0;text-align:center;}
+.header header aside figure ul{ list-style:none;}
+.header header aside figure ul li{ float:none; display:inline; margin:0 8px 0 0;}
+.header header aside figure ul li a{width:35px; height:40px; display:inline-block;background:url(../images/FB.png) center top no-repeat;  }
+.header header aside figure ul li a:hover{ background:url(../images/FB-HO.png) center top no-repeat;}
+
+.header header aside figure ul li a.twi{ background:url(../images/twi.png) center top no-repeat; }
+.header header aside figure ul li a.twi:hover{ background:url(../images/twi-HO.png) center top no-repeat;}
+
+.header header aside figure ul li a.you{ background:url(../images/FB.png) center top no-repeat; }
+.header header aside figure ul li a.you:hover{ background:url(../images/FB-HO.png) center top no-repeat;}
+
+.header header aside figure ul li a.insta{background:url(../images/insta.png) center top no-repeat;}
+.header header aside figure ul li a.insta:hover{ background:url(../images/insta-HO.png) center top no-repeat;}
+
+.header header aside figcaption  { width:20%; float:right; background:url(../images/earth.png) 10% center no-repeat; line-height:38px; background-color:#344e97; padding:0 0 0 10%; display:none;}
+.header header aside figcaption a{ color:#fff;}
+
+.header header nav{ width:100%; float:left; border-bottom:#3c559a 1px solid; margin:30px 0 10px 0;}
+.header header nav ul{ list-style:none; margin:0px; padding:0px;}
+.header header nav ul li{ display:inline;}
+.header header nav ul li a{ display:inline-block; color:#adadad; line-height:30px; padding:0 5px 0 5px; border-bottom:transparent 2px solid; font-size:13px;}
+.header header nav ul li a:hover{ border-bottom:#fff 2px solid; color:#fff;}
+.header header nav ul li a.active-line{ border-bottom:#fff 2px solid; color:#fff;}
+
+.btn{ background:url(../images/BTN.png) left top no-repeat;  width:50px; height:40px; border:none; outline:none;}
+
+.header header section{ width:94%; float:left;text-transform:uppercase; padding:40px 3% 0px 3%; text-align:center;}
+.header header section h1{ font-family:"Open Sans Semibold"; font-size:20px; color:#fff;}
+.header header section h2{ font-family:"Open Sans Light"; font-size:15px; color:#fff; padding:10px 0 30px 0; }
+.header header section a{ display:inline-block; border:#fff 2px solid; padding:10px 20px 10px 20px; color:#fff; font-size:12px; margin:0 0 40px 0;}
+.header header section a:hover{ border:#CF6 2px solid; color:#CF6;}
+/*****************header Tags ends************************/
+	
+	
+	
+.kia{ width:100%; float:left;}
+.kia header{ width:94%; float:left; text-align:center; padding:50px 3% 80px 3%;}
+.kia header h1{ font-size:30px; font-family:"Open Sans Semibold"; text-transform:uppercase;}
+.kia header h2{ font-family:"Open Sans"; font-size:20px; color:#686868; padding:10px 0 20px 0; text-transform:uppercase;}
+.kia header p{font-family:"Open Sans"; font-size:13px; color:#686868; line-height:26px;}
+.kia header ul{ list-style:none; margin:0px; padding:0px;}
+.kia header li{ display:inline; text-align:center; margin:0 5px 0 0;}
+.kia header ul li a{ display:inline-block; color:#fff; background-color:#000; padding:10px 30px 10px 30px; margin:40px 0 0 0; text-transform:uppercase; font-size:13px;}
+.kia header ul li a:hover{ background-color:#233b7b;}
+.kia header ul li a.active2{ background-color:#233b7b;}
+	
+	
+	
+	
+
+.map{ width:100%; float:left; background-color:#233b7b;}
+.map article{ width:94%; float:left; padding:80px 3% 67px 3%;}
+.map article figcaption{ width:100%; float:left; text-transform:uppercase; padding:0 0 66px 0; text-align:center;}
+.map article figcaption h1{ font-family:"Open Sans Light"; font-size:20px; color:#fff; padding:0 0 30px 0; }
+.map article figcaption h2{ font-family:"Open Sans Semibold"; font-size:30px; color:#fff; line-height:40px;}
+.map article figure{ width:100%; float:right; text-align:right; position:relative; color:#fff;}
+.map article figure img{ width:100%;}
+.map-posi{ width:40%; height:30px; position:absolute; left:30%; font-size:12px; top:50px; background:url(../images/red.png) left top no-repeat;color:#fff; cursor:pointer; }
+.map-posi2{ width:40%; height:30px; position:absolute; left:40%; top:80px; background:url(../images/red2.png) left top no-repeat;color:#fff;cursor:pointer;}
+.map-posi3{ width:40%; height:30px; position:absolute; left:70%; top:120px; background:url(../images/red3.png) left top no-repeat;color:#fff;cursor:pointer;}
+
+	
+	
+.new{ width:100%; float:left;padding:80px 0 50px 0;}
+.new article{ width:94%; float:left; padding:0 3% 0 3%; text-align:center; }
+.new article aside{ width:100%; float:left; margin:0px;}
+.new article aside figure img{ width:100%;}
+.new article aside figcaption{ width:100%; float:left;}
+.new article aside figcaption h1{ font-size:18px; text-transform:uppercase; font-family:"Open Sans Light"; padding:10px 0 20px 0;}
+.new article aside figcaption p{ color:#686868; font-size:13px; line-height:20px; padding:0 0 30px 0;}
+.new article aside ul{ list-style:none; margin:0px; padding:0px;}
+.new article aside ul li{ display:inline; text-align:center; margin:0 5px 0 0;}
+.new article aside ul li a{ width:30%; display:inline-block; font-size:10px; :#fff; background-color:#000; padding:10px 0 10px;  text-transform:uppercase; margin:0 0 20px 0;}
+.new article aside ul li a:hover{background-color:#233b7b;}
+.new article aside ul li a.active3{background-color:#233b7b;}
+	
+	
+	
+	
+
+.gallery{ width:94%; float:left; background:#ededed; padding:80px 3% 80px 3%;}
+.gallery header{ width:100%; float:left; text-align:center; font-size:42px; font-family:"Open Sans Semibold"; padding:0 0 40px 0;}
+.gallery figure{ width:100%; float:left;}
+.gallery figure ul{ list-style:none; margin:0px; padding:0px;}
+.gallery figure ul li{ float:left; width:50%;transition:all 2s ease;}
+.gallery figure ul li img{ width:99%; margin:-2px 0 0 0;}
+.gallery figure ul li:hover{ transform:scale(1.1,1.1); transition:all 2s ease;}
+
+
+.gallery aside{ width:100%; float:left;}
+.gallery aside img{ width:100%}
+
+.gallery article{ width:100%; float:left; text-align:center; padding:40px 0 0 0;}
+.gallery article ul{ list-style:none; margin:0px; padding:0px;}
+.gallery article li{ display:inline; text-align:center; margin:0 5px 0 0;}
+.gallery article ul li a{ display:inline-block; color:#fff; background-color:#000; padding:10px 40px 10px 40px; margin:40px 0 0 0; text-transform:uppercase;}
+.gallery article li a:hover{ background-color:#233b7b;}
+.gallery article li a.active2{ background-color:#233b7b;}
+
+
+
+
+
+
+.late{ width:100%; float:left;padding:80px 0 80px 0; text-align:center;}
+.late article{ width:94%; float:left; padding:0 3% 0 3%; }
+.late article header{ width:100%; float:left; text-align:center; font-weight:bold; font-size:42px; padding:0 0 80px 0;}
+.late article aside{ width:100%; float:left; border:none;}
+.late article aside.pull-right{ float:right;}
+.late article aside  h1{ font-size:20px; text-transform:uppercase; font-family:"Open Sans Light"; padding:40px 0 20px 0;}
+.late article aside h2{ font-size:16px; color:#c9c8c8;}
+.late article aside  p{ color:#686868; font-size:18px; line-height:28px; padding:0 0 30px 0;}
+
+
+
+.late article figcaption{ width:100%; float:left; border-top:#999 1px solid; }
+.late article  figcaption h1{ font-size:20px; text-transform:uppercase; font-family:"Open Sans Light"; padding:40px 0 20px 0;}
+.late article  figcaption h2{ font-size:16px; color:#c9c8c8; margin:20px 0 0 0;}
+.late article  figcaption  p{ color:#686868; font-size:18px; line-height:28px; padding:0 0 30px 0;}
+
+
+.late article footer{ width:100%; float:left; text-align:center; padding:45px 0 0 0;}
+.late article footer a{ width:40%; display:inline-block; font-size:12px; color:#fff; background-color:#000; padding:10px 0 10px;  text-transform:uppercase;}
+.late article footer a:hover{background-color:#233b7b;}
+
+
+
+
+
+
+.aan{ width:100%; float:left; background:url(../images/blur-bg.png) left top no-repeat; text-align:center; padding:75px 0 95px 0; }
+.aan header{ width:70%; float:left; padding:0 15% 0 15%;}
+.aan header h1{ font-family:"Open Sans Semibold"; font-size:30px; color:#fff; text-transform:uppercase;}
+.aan header p{ font-size:14px; color:#fff; padding:20px 0 26px 0;}
+.aan header a{ display:inline-block; color:#fff; background-color:#233b7b; font-size:12px; padding:10px 20px 10px 20px; text-transform:uppercase;}
+.aan header a:hover{ background-color:#000;}
+
+	
+	
+	
+	
+.man{ width:90%; float:left;  text-align:center; padding:80px 5% 80px 5%;}
+.man article{ width:100%; float:left;}
+.man article figure{ width:100%; float:left; padding:0px 0px 0px 0px;}
+.man article figure img{ width:100%; }
+.man article figcaption{ width:100%; float:left; text-align:center; }
+.man article figcaption h1{ font-family:"Open Sans Semibold"; font-size:30px;}
+.man article figcaption h2{ font-family: "Open Sans Light"; font-size:18px;}
+.man article figcaption p{ font-size:18px; color:#686868; padding:30px 0 40px 0;}
+.man article figcaption ul{ list-style:none; margin:0px; padding:0px;}
+.man article figcaption ul li{ display:inline; text-align:center; margin:0 5px 0 0;}
+.man article figcaption ul li a{ width:40%; display:inline-block; color:#fff; background-color:#000; padding:10px 10px 10px 10px;  text-transform:uppercase;}
+.man article figcaption ul li a:hover{background-color:#233b7b;}
+.man article figcaption ul li a.active3{background-color:#233b7b;}
+/*****************body Tags ends************************/
+
+/*****************footer Tags starts************************/
+.foot{ width:100%; float:left; background-color:#181818; padding:80px 0 80px 0;}
+.foot article{ width:94%; float:left; padding:0 3% 0 3%;}
+.foot aside{ width:100%; float:left; text-align:center;}
+.foot aside h1{ font-size:16px; color:#fff; text-transform:uppercase; padding:0 0 20px 0;}
+.foot aside ul { list-style:none; padding:0 30px 0 0; margin:0px; float:left;}
+.foot aside ul li {  font-size:16px; display:inline;}
+.foot aside ul li a { color:#CCC; display:inline-block; line-height:28px; padding:0px 8px 0px 8px;}
+.foot aside ul li a:hover{ color:#F66;}
+.foot article figcaption{ width:100%; float:right; margin:50px 0 0 10%; text-align:center;}
+.foot article figcaption h1{ font-size:16px; color:#fff; font-family:"Open Sans Semibold"; text-transform:uppercase; padding:0 0 20px 0; line-height:28px}
+.foot article figcaption h2{ font-size:15px; color:#CCC; font-family:"Open Sans Light"; line-height:28px;}
+
+
+
+
+
+.last{ width:100%; float:left; background-color:#000;}
+.last nav{ width:94%; float:left; padding:0 3% 0 3%; text-align:center;}
+
+.last nav figcaption{ width:100%; float:left; color:#4b4b4b; line-height:48px; font-size:10px; text-align:center;}
+
+
+.last nav figure{ width:100%; float:left; font-size:14px; padding:5px 0px 20px 0px; text-align:center;}
+.last nav figure ul{ list-style:none; margin:0px; padding:0px;}
+.last nav figure ul li{ display:inline-block; float:none;}
+.last nav figure ul li a{ display:inline-block; width:35px; height:40px; display:block;background:url(../images/FB.png) center center no-repeat;  }
+.last nav figure ul li a:hover{ background:url(../images/FB-HO.png) center center no-repeat;}
+
+.last nav figure ul li a.twi{ background:url(../images/twi.png) center center no-repeat; }
+.last nav figure ul li a.twi:hover{ background:url(../images/twi-HO.png) center center no-repeat;}
+
+.last nav  figure ul li a.you{ background:url(../images/FB.png) center center no-repeat; }
+.last nav figure ul li a.you:hover{ background:url(../images/FB-HO.png) center center no-repeat;}
+
+.last nav figure ul li a.insta{background:url(../images/insta.png) center center no-repeat;}
+.last nav figure ul li a.insta:hover{ background:url(../images/insta-HO.png) center center no-repeat;}
+
+/*****************footer Tags ends************************/
+
+
+
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+@media only screen and (min-width:481px) and (max-width:767px)
+{
+	.wrap{ width:100%; margin:0 auto 0 auto;}
+
+
+.header{ width:100%; float:left; background:url(../images/header-bg.png) left top no-repeat;}
+.header header{ width:94%; float:left; padding:0 3% 0 3%;}
+.header header hgroup{ width:30%; float:left; padding:20px 0 30px 0;}
+.header header hgroup img{ width:100%;}
+.header header aside{ width:50%; float:right; padding:35px 0 0 0;}
+.header header aside article { width:10%; float:left}
+.header header aside figure { width:50%; float:left;}
+.header header aside figure ul{ list-style:none;}
+.header header aside figure ul li{ float:left; margin:0 4px 0 0;}
+.header header aside figure ul li a{width:35px; height:40px; display:block;background:url(../images/FB.png) center top no-repeat;  }
+.header header aside figure ul li a:hover{ background:url(../images/FB-HO.png) center top no-repeat;}
+
+.header header aside figure ul li a.twi{ background:url(../images/twi.png) center top no-repeat; }
+.header header aside figure ul li a.twi:hover{ background:url(../images/twi-HO.png) center top no-repeat;}
+
+.header header aside figure ul li a.you{ background:url(../images/FB.png) center top no-repeat; }
+.header header aside figure ul li a.you:hover{ background:url(../images/FB-HO.png) center top no-repeat;}
+
+.header header aside figure ul li a.insta{background:url(../images/insta.png) center top no-repeat;}
+.header header aside figure ul li a.insta:hover{ background:url(../images/insta-HO.png) center top no-repeat;}
+
+.header header aside figcaption  { width:20%; float:left; background:url(../images/earth.png) 10% center no-repeat; line-height:38px; background-color:#344e97; padding:0 0 0 10%;}
+.header header aside figcaption a{ color:#fff;}
+
+.header header nav{ width:100%; float:left; border-bottom:#3c559a 1px solid; text-align:center;}
+.header header nav ul{ list-style:none; margin:0px; padding:0px;}
+.header header nav ul li{ display:inline-block;}
+.header header nav ul li a{ display:inline-block; color:#adadad; line-height:30px; padding:0 13px 0 13px; font-size:14px; border-bottom:transparent 2px solid;}
+.header header nav ul li a:hover{ border-bottom:#fff 2px solid; color:#fff;}
+.header header nav ul li a.active-line{ border-bottom:#fff 2px solid; color:#fff;}
+
+.btn{ background:url(../images/BTN.png) left top no-repeat;  width:50px; height:40px; border:none; outline:none;}
+
+.header header section{ width:95%; float:left;text-transform:uppercase; padding:90px 0 90px 5%;}
+.header header section h1{ font-family:"Open Sans Semibold"; font-size:30px; color:#fff;}
+.header header section h2{ font-family:"Open Sans Light"; font-size:20px; color:#fff; padding:10px 0 60px 0;  }
+.header header section a{ display:inline-block; border:#fff 2px solid; font-size:14px; padding:10px 20px 10px 20px; color:#fff;}
+.header header section a:hover{ border:#CF6 2px solid; color:#CF6;}
+
+
+
+
+.map{ width:100%; float:left; background-color:#233b7b;}
+.map article{ width:94%; float:left; padding:80px 3% 67px 3%;}
+.map article figcaption{ width:45%; float:left; text-transform:uppercase; padding:0 0 50px 0;}
+.map article figcaption h1{ font-family:"Open Sans Light"; font-size:20px; color:#fff; padding:0 0 30px 0; }
+.map article figcaption h2{ font-family:"Open Sans Semibold"; font-size:30px; color:#fff; line-height:60px;}
+.map article figure{ width:55%; float:right; text-align:right; position:relative; color:#fff;}
+.map article figure img{ width:100%;}
+.map-posi{ width:30%; height:30px; position:absolute; left:70%; font-size:12px; top:50px; background:url(../images/red.png) left top no-repeat;color:#fff; cursor:pointer;}
+.map-posi2{ width:30%; height:30px; position:absolute; left:40%; top:80px; background:url(../images/red2.png) left top no-repeat;color:#fff;cursor:pointer;}
+.map-posi3{ width:30%; height:30px; position:absolute; left:20%; top:120px; background:url(../images/red3.png) left top no-repeat;color:#fff;cursor:pointer;}
+
+
+
+.new{ width:100%; float:left;padding:80px 0 80px 0;}
+.new article{ width:94%; float:left; padding:0 3% 0 3%; text-align:center; }
+.new article aside{ width:48%; float:left;}
+.new article aside figure img{ width:100%;}
+.new article aside figcaption{ width:100%; float:left;}
+.new article aside figcaption h1{ font-size:26px; text-transform:uppercase; font-family:"Open Sans Light"; padding:40px 0 20px 0;}
+.new article aside figcaption p{ color:#686868; font-size:18px; line-height:28px; padding:0 0 30px 0;}
+.new article aside ul{ list-style:none; margin:0px; padding:0px;}
+.new article aside ul li{ display:inline; text-align:center; margin:0 5px 0 0;}
+.new article aside ul li a{ width:40%; display:inline-block; color:#fff; font-size:13px; background-color:#000; padding:10px 0 10px;  text-transform:uppercase;}
+.new article aside ul li a:hover{background-color:#233b7b;}
+.new article aside ul li a.active3{background-color:#233b7b;}
+.mar{ margin:0 0 0 4%;}
+
+
+
+.gallery{ width:94%; float:left; background:#ededed; padding:80px 3% 80px 3%;}
+.gallery header{ width:100%; float:left; text-align:center; font-size:42px; font-family:"Open Sans Semibold"; padding:0 0 40px 0;}
+.gallery figure{ width:53%; float:left;}
+.gallery figure img{ width:auto;}
+.gallery figure ul{ list-style:none; margin:0px; padding:0px;}
+.gallery figure ul li{ float:left; width:50%;transition:all 2s ease;}
+.gallery figure ul li img{ width:99%; margin:-2px 0 0 0;}
+.gallery figure ul li:hover{ transform:scale(1.1,1.1); transition:all 2s ease;}
+
+
+.gallery aside{ width:47%; float:left;}
+.gallery aside img{ width:100%;}
+
+.gallery article{ width:100%; float:left; text-align:center; padding:40px 0 0 0;}
+.gallery article ul{ list-style:none; margin:0px; padding:0px;}
+.gallery article li{ display:inline; text-align:center; margin:0 5px 0 0;}
+.gallery article ul li a{ display:inline-block; color:#fff; background-color:#000; padding:10px 40px 10px 40px; margin:40px 0 0 0; text-transform:uppercase;}
+.gallery article li a:hover{ background-color:#233b7b;}
+.gallery article li a.active2{ background-color:#233b7b;}
+
+
+
+
+.late{ width:100%; float:left;padding:80px 0 80px 0;}
+.late article{ width:94%; float:left; padding:0 3% 0 3%; }
+.late article header{ width:100%; float:left; text-align:center; font-weight:bold; font-size:42px; padding:0 0 80px 0;}
+.late article aside{ width:48%; float:left; border-right:#c9c8c8 1px solid;}
+.late article aside.pull-right{ float:right;}
+.late article aside  h1{ font-size:20px; text-transform:uppercase; font-family:"Open Sans Light"; padding:40px 0 20px 0;}
+.late article aside h2{ font-size:16px; color:#c9c8c8;}
+.late article aside  p{ color:#686868; font-size:18px; line-height:28px; padding:0 0 30px 0;}
+
+
+
+.late article figcaption{ width:48%; float:right; }
+.late article  figcaption h1{ font-size:20px; text-transform:uppercase; font-family:"Open Sans Light"; padding:40px 0 20px 0;}
+.late article  figcaption h2{ font-size:16px; color:#c9c8c8;}
+.late article  figcaption  p{ color:#686868; font-size:18px; line-height:28px; padding:0 0 30px 0;}
+
+
+.late article footer{ width:100%; float:left; text-align:center; padding:45px 0 0 0;}
+.late article footer a{ width:20%; display:inline-block; color:#fff; font-size:13px; background-color:#000; padding:10px 0 10px  0;  text-transform:uppercase;}
+.late article footer a:hover{background-color:#233b7b;}
+
+
+
+
+.aan{ width:100%; float:left; background:url(../images/blur-bg.png) left top no-repeat; text-align:center; padding:75px 0 40px 0; background-size:cover;}
+
+
+
+
+.man{ width:94%; float:left; padding:50px 3% 80px 3%;}
+.man article{ width:100%; float: left;}
+.man figure{ width:47%; float:left; padding:0 0 0 3%; }
+.man figure img{ width:100%;}
+.man figcaption{ width:47%; float:right; }
+.man figcaption h1{ font-family:"Open Sans Semibold"; font-size:30px;}
+.man figcaption h2{ font-family: "Open Sans Light"; font-size:16px; padding:0 0 0 0;}
+.man figcaption p{ font-size:14px; color:#686868; padding:0 0 40px 0;}
+.man figcaption ul{ list-style:none; margin:0px; padding:0px;}
+.man figcaption ul li{ display:inline; text-align:center; margin:0 5px 0 0;}
+.man figcaption ul li a{ width:40%; display:inline-block; color:#fff; background-color:#000; font-size:14px; padding:10px 0 10px;  text-transform:uppercase;}
+.man figcaption ul li a:hover{background-color:#233b7b;}
+.man figcaption ul li a.active3{background-color:#233b7b;}
+
+
+
+
+.last{ width:100%; float:left; background-color:#000;}
+.last article{ width:94%; float:left; padding:0 3% 0 3%;}
+
+.last figcaption{ width:50%; float:left; color:#4b4b4b; line-height:48px; font-size:14px; padding:0 0 0 3%;}
+
+
+.last figure{ width:32%; float:right; font-size:14px; padding:5px 3% 0 0;}
+.last figure ul{ list-style:none;}
+.last figure ul li{ float:right; margin:0 8px 0 0;}
+.last figure ul li a{width:35px; height:40px; display:block;background:url(../images/FB.png) center center no-repeat;  }
+.last figure ul li a:hover{ background:url(../images/FB-HO.png) center center no-repeat;}
+
+.last figure ul li a.twi{ background:url(../images/twi.png) center center no-repeat; }
+.last figure ul li a.twi:hover{ background:url(../images/twi-HO.png) center center no-repeat;}
+
+.last figure ul li a.you{ background:url(../images/FB.png) center center no-repeat; }
+.last figure ul li a.you:hover{ background:url(../images/FB-HO.png) center center no-repeat;}
+
+.last figure ul li a.insta{background:url(../images/insta.png) center center no-repeat;}
+.last figure ul li a.insta:hover{ background:url(../images/insta-HO.png) center center no-repeat;}
+
+
+}
+
+
+
+	
+@media only screen and (min-width:320px) and (max-width:480px)
+
+
+{
+.wrap{ width:100%; margin:0 auto 0 auto;}
+
+
+.header{ width:100%; float:left; background:url(../images/header-bg.png) left top no-repeat; }
+.header header{ width:100%; float:left; text-align:center;}
+.header header hgroup{ width:100%; float:left; padding:15px 0 0 0;}
+.header header hgroup a img{ width:auto;}
+.header header aside{ width:100%; float:right; padding:0 0 0 0; text-align:center;}
+.header header aside article { width:100%; float:left; padding:0 0 0 0;margin:30px 0 0 0;}
+.header header aside figure { width:100%; float:left; margin:30px 0 0 0; text-align:center;}
+.header header aside figure ul{ list-style:none;}
+.header header aside figure ul li{ float:none; margin:0 8px 0 0; display:inline;}
+.header header aside figure ul li a{width:35px; height:40px; display:inline-block;background:url(../images/FB.png) center top no-repeat;  }
+.header header aside figure ul li a:hover{ background:url(../images/FB-HO.png) center top no-repeat;}
+
+.header header aside figure ul li a.twi{ background:url(../images/twi.png) center top no-repeat; }
+.header header aside figure ul li a.twi:hover{ background:url(../images/twi-HO.png) center top no-repeat;}
+
+.header header aside figure ul li a.you{ background:url(../images/FB.png) center top no-repeat; }
+.header header aside figure ul li a.you:hover{ background:url(../images/FB-HO.png) center top no-repeat;}
+
+.header header aside figure ul li a.insta{background:url(../images/insta.png) center top no-repeat;}
+.header header aside figure ul li a.insta:hover{ background:url(../images/insta-HO.png) center top no-repeat;}
+
+.header header aside figcaption  { width:20%; float:right; background:url(../images/earth.png) 10% center no-repeat; line-height:38px; background-color:#344e97; padding:0 0 0 10%; display:none;}
+.header header aside figcaption a{ color:#fff;}
+
+.header header nav{ width:100%; float:left; border-bottom:#3c559a 1px solid; margin:30px 0 10px 0;}
+.header header nav ul{ list-style:none; margin:0px; padding:0px;}
+.header header nav ul li{ display:inline;}
+.header header nav ul li a{ display:inline-block; color:#adadad; line-height:30px; padding:0 5px 0 5px; border-bottom:transparent 2px solid; font-size:13px;}
+.header header nav ul li a:hover{ border-bottom:#fff 2px solid; color:#fff;}
+.header header nav ul li a.active-line{ border-bottom:#fff 2px solid; color:#fff;}
+
+.btn{ background:url(../images/BTN.png) left top no-repeat;  width:50px; height:40px; border:none; outline:none;}
+
+.header header section{ width:94%; float:left;text-transform:uppercase; padding:40px 3% 0px 3%; text-align:center;}
+.header header section h1{ font-family:"Open Sans Semibold"; font-size:20px; color:#fff;}
+.header header section h2{ font-family:"Open Sans Light"; font-size:15px; color:#fff; padding:10px 0 30px 0; }
+.header header section a{ display:inline-block; border:#fff 2px solid; padding:10px 20px 10px 20px; color:#fff; font-size:12px; margin:0 0 40px 0;}
+.header header section a:hover{ border:#CF6 2px solid; color:#CF6;}	
+	
+	
+
+.map{ width:100%; float:left; background-color:#233b7b;}
+.map article{ width:94%; float:left; padding:80px 3% 67px 3%;}
+.map article figcaption{ width:100%; float:left; text-transform:uppercase; padding:0 0 66px 0; text-align:center;}
+.map article figcaption h1{ font-family:"Open Sans Light"; font-size:20px; color:#fff; padding:0 0 30px 0; }
+.map article figcaption h2{ font-family:"Open Sans Semibold"; font-size:30px; color:#fff; line-height:40px;}
+.map article figure{ width:100%; float:right; text-align:right; position:relative; color:#fff;}
+.map article figure img{ width:100%;}
+.map-posi{ width:25%; height:30px; position:absolute; left:47%; font-size:12px; top:50px; background:url(../images/red.png) left top no-repeat;color:#fff; cursor:pointer; }
+.map-posi2{ width:20%; height:30px; position:absolute; left:80%; top:80px; background:url(../images/red2.png) left top no-repeat;color:#fff;cursor:pointer;}
+.map-posi3{ width:25%; height:30px; position:absolute; left:60%; top:120px; background:url(../images/red3.png) left top no-repeat;color:#fff;cursor:pointer;}
+
+.gallery{ width:94%; float:left; background:#ededed; padding:80px 3% 80px 3%;}
+
+	
+.new{ width:100%; float:left;padding:80px 0 50px 0;}
+.new article{ width:94%; float:left; padding:0 3% 0 3%; text-align:center; }
+.new article aside{ width:100%; float:left; margin:0px;}
+.new article aside figure img{ width:100%;}
+.new article aside figcaption{ width:100%; float:left;}
+.new article aside figcaption h1{ font-size:18px; text-transform:uppercase; font-family:"Open Sans Light"; padding:10px 0 20px 0;}
+.new article aside figcaption p{ color:#686868; font-size:13px; line-height:20px; padding:0 0 30px 0;}
+.new article aside ul{ list-style:none; margin:0px; padding:0px;}
+.new article aside ul li{ display:inline; text-align:center; margin:0 5px 0 0;}
+.new article aside ul li a{ width:30%; display:inline-block; font-size:10px; :#fff; background-color:#000; padding:10px 0 10px;  text-transform:uppercase; margin:0 0 20px 0;}
+.new article aside ul li a:hover{background-color:#233b7b;}
+.new article aside ul li a.active3{background-color:#233b7b;}
+
+
+
+
+
+
+.late{ width:100%; float:left;padding:50px 0 80px 0; text-align:center;}
+.late article{ width:94%; float:left; padding:0 3% 0 3%; }
+.late article header{ width:100%; float:left; text-align:center; font-weight:bold; font-size:42px; padding:0 0 20px 0;}
+.late article aside{ width:100%; float:left; border:none;}
+.late article aside.pull-right{ float:right;}
+.late article aside  h1{ font-size:20px; text-transform:uppercase; font-family:"Open Sans Light"; padding:40px 0 20px 0;}
+.late article aside h2{ font-size:16px; color:#c9c8c8;}
+.late article aside  p{ color:#686868; font-size:18px; line-height:28px; padding:0 0 30px 0;}
+
+
+
+.late article figcaption{ width:100%; float:left; border-top:#999 1px solid; }
+.late article  figcaption h1{ font-size:20px; text-transform:uppercase; font-family:"Open Sans Light"; padding:40px 0 20px 0;}
+.late article  figcaption h2{ font-size:16px; color:#c9c8c8; margin:20px 0 0 0;}
+.late article  figcaption  p{ color:#686868; font-size:18px; line-height:28px; padding:0 0 30px 0;}
+
+
+.late article footer{ width:100%; float:left; text-align:center; padding:45px 0 0 0;}
+.late article footer a{ width:40%; display:inline-block; font-size:12px; color:#fff; background-color:#000; padding:10px 0 10px;  text-transform:uppercase;}
+.late article footer a:hover{background-color:#233b7b;}
+
+
+
+
+	
+.man{ width:90%; float:left; padding:80px 5% 80px 5%; text-align:center;}
+.man article{ width:100%; float:left;}
+.man article figure{ width:100%; float:left; padding:0px 0px 0px 0;}
+.man article figure img{ width:100%; }
+.man article figcaption{ width:100%; float:left; text-align:center; }
+.man article figcaption h1{ font-family:"Open Sans Semibold"; font-size:30px;}
+.man article figcaption h2{ font-family: "Open Sans Light"; font-size:18px; padding:20px 0 0 0;}
+.man article figcaption p{ font-size:18px; color:#686868; padding:30px 0 40px 0;}
+.man article figcaption ul{ list-style:none; margin:0px; padding:0px;}
+.man article figcaption ul li{ display:inline; text-align:center; margin:0 5px 0 0;}
+.man article figcaption ul li a{ width:40%; display:inline-block; color:#fff; background-color:#000; padding:10px 0 10px;  text-transform:uppercase;}
+.man article figcaption ul li a:hover{background-color:#233b7b;}
+.man article figcaption ul li a.active3{background-color:#233b7b;}
+
+
+.foot{ width:100%; float:left; background-color:#181818; padding:80px 0 80px 0;}
+.foot article{ width:94%; float:left; padding:0 3% 0 3%;}
+.foot aside{ width:100%; float:left; text-align:center;}
+.foot aside h1{ font-size:16px; color:#fff; text-transform:uppercase; padding:0 0 20px 0;}
+.foot aside ul { list-style:none; padding:0 30px 0 0; margin:0px; float:left;}
+.foot aside ul li {  font-size:16px; display:inline;}
+.foot aside ul li a { color:#CCC; display:inline-block; line-height:28px; padding:0px 8px 0px 8px;}
+.foot aside ul li a:hover{ color:#F66;}
+.foot article figcaption{ width:100%; float:right; margin:50px 0 0 10%; text-align:center;}
+.foot article figcaption h1{ font-size:16px; color:#fff; font-family:"Open Sans Semibold"; text-transform:uppercase; padding:0 0 20px 0; line-height:28px}
+.foot article figcaption h2{ font-size:15px; color:#CCC; font-family:"Open Sans Light"; line-height:28px;}
+	
+	
+
+
+.last{ width:100%; float:left; background-color:#000;}
+.last nav{ width:94%; float:left; padding:0 3% 0 3%; text-align:center;}
+
+.last nav figcaption{ width:100%; float:left; color:#4b4b4b; line-height:48px; font-size:10px; text-align:center;}
+
+
+.last nav figure{ width:100%; float:left; font-size:14px; padding:5px 0px 20px 0px; text-align:center;}
+.last nav figure ul{ list-style:none; margin:0px; padding:0px;}
+.last nav figure ul li{ display:inline-block; float:none;}
+.last nav figure ul li a{ display:inline-block; width:35px; height:40px; display:block;background:url(../images/FB.png) center center no-repeat;  }	
+	
+		
+}
+
+
+
+	
+@media only screen and (min-width:768px) and (max-width:1024px)
+{
+	.wrap{ width:100%; margin:0 auto 0 auto;}
+
+
+.header{ width:100%; float:left; background:url(../images/header-bg.png) left top no-repeat;}
+.header header{ width:94%; float:left; padding:0 3% 0 3%;}
+.header header hgroup{ width:30%; float:left; padding:20px 0 30px 0;}
+.header header hgroup img{ width:100%;}
+.header header aside{ width:50%; float:right; padding:35px 0 0 0;}
+.header header aside article { width:10%; float:left}
+.header header aside figure { width:50%; float:left;}
+.header header aside figure ul{ list-style:none;}
+.header header aside figure ul li{ float:left; margin:0 4px 0 0;}
+.header header aside figure ul li a{width:35px; height:40px; display:block;background:url(../images/FB.png) center top no-repeat;  }
+.header header aside figure ul li a:hover{ background:url(../images/FB-HO.png) center top no-repeat;}
+
+.header header aside figure ul li a.twi{ background:url(../images/twi.png) center top no-repeat; }
+.header header aside figure ul li a.twi:hover{ background:url(../images/twi-HO.png) center top no-repeat;}
+
+.header header aside figure ul li a.you{ background:url(../images/FB.png) center top no-repeat; }
+.header header aside figure ul li a.you:hover{ background:url(../images/FB-HO.png) center top no-repeat;}
+
+.header header aside figure ul li a.insta{background:url(../images/insta.png) center top no-repeat;}
+.header header aside figure ul li a.insta:hover{ background:url(../images/insta-HO.png) center top no-repeat;}
+
+.header header aside figcaption  { width:20%; float:left; background:url(../images/earth.png) 10% center no-repeat; line-height:38px; background-color:#344e97; padding:0 0 0 10%;}
+.header header aside figcaption a{ color:#fff;}
+
+.header header nav{ width:100%; float:left; border-bottom:#3c559a 1px solid; text-align:center;}
+.header header nav ul{ list-style:none; margin:0px; padding:0px;}
+.header header nav ul li{ display:inline-block;}
+.header header nav ul li a{ display:inline-block; color:#adadad; line-height:30px; padding:0 13px 0 13px; font-size:14px; border-bottom:transparent 2px solid;}
+.header header nav ul li a:hover{ border-bottom:#fff 2px solid; color:#fff;}
+.header header nav ul li a.active-line{ border-bottom:#fff 2px solid; color:#fff;}
+
+.btn{ background:url(../images/BTN.png) left top no-repeat;  width:50px; height:40px; border:none; outline:none;}
+
+.header header section{ width:95%; float:left;text-transform:uppercase; padding:90px 0 90px 5%;}
+.header header section h1{ font-family:"Open Sans Semibold"; font-size:30px; color:#fff;}
+.header header section h2{ font-family:"Open Sans Light"; font-size:20px; color:#fff; padding:10px 0 60px 0;  }
+.header header section a{ display:inline-block; border:#fff 2px solid; font-size:14px; padding:10px 20px 10px 20px; color:#fff;}
+.header header section a:hover{ border:#CF6 2px solid; color:#CF6;}
+
+
+
+
+.map{ width:100%; float:left; background-color:#233b7b;}
+.map article{ width:94%; float:left; padding:80px 3% 67px 3%;}
+.map article figcaption{ width:45%; float:left; text-transform:uppercase; padding:0 0 50px 0;}
+.map article figcaption h1{ font-family:"Open Sans Light"; font-size:20px; color:#fff; padding:0 0 30px 0; }
+.map article figcaption h2{ font-family:"Open Sans Semibold"; font-size:30px; color:#fff; line-height:60px;}
+.map article figure{ width:55%; float:right; text-align:right; position:relative; color:#fff;}
+.map article figure img{ width:100%;}
+.map-posi{ width:30%; height:30px; position:absolute; left:70%; font-size:12px; top:50px; background:url(../images/red.png) left top no-repeat;color:#fff; cursor:pointer;}
+.map-posi2{ width:30%; height:30px; position:absolute; left:40%; top:80px; background:url(../images/red2.png) left top no-repeat;color:#fff;cursor:pointer;}
+.map-posi3{ width:30%; height:30px; position:absolute; left:20%; top:120px; background:url(../images/red3.png) left top no-repeat;color:#fff;cursor:pointer;}
+
+
+
+.new{ width:100%; float:left;padding:80px 0 80px 0;}
+.new article{ width:94%; float:left; padding:0 3% 0 3%; text-align:center; }
+.new article aside{ width:48%; float:left;}
+.new article aside figure img{ width:100%;}
+.new article aside figcaption{ width:100%; float:left;}
+.new article aside figcaption h1{ font-size:26px; text-transform:uppercase; font-family:"Open Sans Light"; padding:40px 0 20px 0;}
+.new article aside figcaption p{ color:#686868; font-size:18px; line-height:28px; padding:0 0 30px 0;}
+.new article aside ul{ list-style:none; margin:0px; padding:0px;}
+.new article aside ul li{ display:inline; text-align:center; margin:0 5px 0 0;}
+.new article aside ul li a{ width:40%; display:inline-block; color:#fff; font-size:13px; background-color:#000; padding:10px 0 10px;  text-transform:uppercase;}
+.new article aside ul li a:hover{background-color:#233b7b;}
+.new article aside ul li a.active3{background-color:#233b7b;}
+.mar{ margin:0 0 0 4%;}
+
+
+
+.gallery{ width:94%; float:left; background:#ededed; padding:80px 3% 80px 3%;}
+.gallery header{ width:100%; float:left; text-align:center; font-size:42px; font-family:"Open Sans Semibold"; padding:0 0 40px 0;}
+.gallery figure{ width:53%; float:left;}
+.gallery figure img{ width:auto;}
+.gallery figure ul{ list-style:none; margin:0px; padding:0px;}
+.gallery figure ul li{ float:left; width:50%;transition:all 2s ease;}
+.gallery figure ul li img{ width:99%; margin:-2px 0 0 0;}
+.gallery figure ul li:hover{ transform:scale(1.1,1.1); transition:all 2s ease;}
+
+
+.gallery aside{ width:47%; float:left;}
+.gallery aside img{ width:100%;}
+
+.gallery article{ width:100%; float:left; text-align:center; padding:40px 0 0 0;}
+.gallery article ul{ list-style:none; margin:0px; padding:0px;}
+.gallery article li{ display:inline; text-align:center; margin:0 5px 0 0;}
+.gallery article ul li a{ display:inline-block; color:#fff; background-color:#000; padding:10px 40px 10px 40px; margin:40px 0 0 0; text-transform:uppercase;}
+.gallery article li a:hover{ background-color:#233b7b;}
+.gallery article li a.active2{ background-color:#233b7b;}
+
+
+
+
+.late{ width:100%; float:left;padding:80px 0 80px 0;}
+.late article{ width:94%; float:left; padding:0 3% 0 3%; }
+.late article header{ width:100%; float:left; text-align:center; font-weight:bold; font-size:42px; padding:0 0 80px 0;}
+.late article aside{ width:48%; float:left; border-right:#c9c8c8 1px solid;}
+.late article aside.pull-right{ float:right;}
+.late article aside  h1{ font-size:20px; text-transform:uppercase; font-family:"Open Sans Light"; padding:40px 0 20px 0;}
+.late article aside h2{ font-size:16px; color:#c9c8c8;}
+.late article aside  p{ color:#686868; font-size:18px; line-height:28px; padding:0 0 30px 0;}
+
+
+
+.late article figcaption{ width:48%; float:right; }
+.late article  figcaption h1{ font-size:20px; text-transform:uppercase; font-family:"Open Sans Light"; padding:40px 0 20px 0;}
+.late article  figcaption h2{ font-size:16px; color:#c9c8c8;}
+.late article  figcaption  p{ color:#686868; font-size:18px; line-height:28px; padding:0 0 30px 0;}
+
+
+.late article footer{ width:100%; float:left; text-align:center; padding:45px 0 0 0;}
+.late article footer a{ width:20%; display:inline-block; color:#fff; font-size:13px; background-color:#000; padding:10px 0 10px  0;  text-transform:uppercase;}
+.late article footer a:hover{background-color:#233b7b;}
+
+
+
+
+.aan{ width:100%; float:left; background:url(../images/blur-bg.png) left top no-repeat; text-align:center; padding:75px 0 40px 0; background-size:cover;}
+
+
+
+
+.man{ width:100%; float:left; padding:50px 0 80px 0;}
+.man article{ width:100%; float: left;}
+.man figure{ width:47%; float:left; padding:0 0 0 3%; }
+.man figure img{ width:100%;}
+.man figcaption{ width:47%; float:right; }
+.man figcaption h1{ font-family:"Open Sans Semibold"; font-size:30px;}
+.man figcaption h2{ font-family: "Open Sans Light"; font-size:16px; padding:0 0 0 0;}
+.man figcaption p{ font-size:14px; color:#686868; padding:0 0 40px 0;}
+.man figcaption ul{ list-style:none; margin:0px; padding:0px;}
+.man figcaption ul li{ display:inline; text-align:center; margin:0 5px 0 0;}
+.man figcaption ul li a{ width:40%; display:inline-block; color:#fff; background-color:#000; font-size:14px; padding:10px 0 10px;  text-transform:uppercase;}
+.man figcaption ul li a:hover{background-color:#233b7b;}
+.man figcaption ul li a.active3{background-color:#233b7b;}
+
+
+
+
+.last{ width:100%; float:left; background-color:#000;}
+.last article{ width:94%; float:left; padding:0 3% 0 3%;}
+
+.last figcaption{ width:50%; float:left; color:#4b4b4b; line-height:48px; font-size:14px; padding:0 0 0 3%;}
+
+
+.last figure{ width:32%; float:right; font-size:14px; padding:5px 3% 0 0;}
+.last figure ul{ list-style:none;}
+.last figure ul li{ float:right; margin:0 8px 0 0;}
+
+}
+/*****************header Tags ends************************/
